@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header(); ?> <!-- laddar in header -->
 <div class="mobile-search">
 			<form id="searchform" class="searchform">
 				<div>
@@ -21,16 +21,16 @@
 								<a href="blogg.html">Blogg</a>
 							</li>
 							<li>
-								<a href="undersida.html">Undersida</a>
+								<a href="undersida">Undersida</a>
 							</li>
 							<li>
-								<a href="undersida2.html">Undersida 2</a>
+								<a href="undersida2">Undersida 2</a>
 							</li>
 							<li>
-								<a href="undersida3.html">Undersida 3</a>
+								<a href="undersida3">Undersida 3</a>
 							</li>
 							<li>
-								<a href="undersida4.html">Undersida 4</a>
+								<a href="undersida4">Undersida 4</a>
 							</li>
 							<li>
 								<a href="kontakt.html">Kontakt</a>
@@ -52,7 +52,7 @@
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="hero">
-                            <?php the_post_thumbnail();?> <!-- laddar fram bilden -->
+                            <?php the_post_thumbnail();?> 
 								<div class="text">
 									<h1><?php the_title(); ?></h1>
 									<p><?php the_content(); ?></p>
@@ -66,4 +66,4 @@
         <?php    
         }
         ?>
-        <?php get_footer(); ?>
+        <?php get_footer(); ?> <!-- laddar in footer -->
