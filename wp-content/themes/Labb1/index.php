@@ -1,5 +1,5 @@
 <?php get_header(); ?> <!-- laddar in header -->
-<div class="mobile-search">
+<!-- <div class="mobile-search">
 			<form id="searchform" class="searchform">
 				<div>
 					<label class="screen-reader-text">Sök efter:</label>
@@ -7,7 +7,7 @@
 					<input type="submit" value="Sök" />
 				</div>
 			</form>
-		</div>
+</div> -->
 
 <!-- 		<nav id="nav">
 			<div class="container">

@@ -2,11 +2,13 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<title>Labb 1</title>
+	<title> <?php wp_title(); ?></title>
+    
     <link href=<?php echo get_template_directory_uri().'/css/font-awesome.css'?> rel="stylesheet" type="text/css" />
 	<link href=<?php echo get_template_directory_uri().'/css/bootstrap.css'?> rel="stylesheet" type="text/css" />
 	<link href=<?php echo get_template_directory_uri().'/css/style.css'?> rel="stylesheet" type="text/css" />
 	<script src=<?php echo get_template_directory_uri()."/js/jquery.js"?>></script>
+    
     <?php wp_head(); ?>
 </head>
 <body>
@@ -44,9 +46,9 @@
 					<div class="col-xs-12">
 						<ul class="menu">
 							<li class="current-menu-item">
-                            <?php 
-                            wp_nav_menu(); //header meny
-                            ?>
+                                <?php 
+                                wp_nav_menu(); //header meny
+                                ?>
 							</li>
 						<!-- 	<li>
 								<a href="blogg.html">Blogg</a>
