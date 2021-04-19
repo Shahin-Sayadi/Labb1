@@ -22,13 +22,9 @@
 						<a class="logo" href="index.html">Labb 1</a>
 					</div>
 					<div class="col-sm-6 hidden-xs">
-						<form id="searchform" class="searchform">
-							<div>
-								<label class="screen-reader-text">Sök efter:</label>
-								<input type="text" />
-								<input type="submit" value="Sök" />
-							</div>
-						</form>
+						
+                    <?php get_search_form();?> <!-- laddar fram searchbar -->
+						
 					</div>
 					<div class="col-xs-4 text-right visible-xs">
 						<div class="mobile-menu-wrap">
@@ -47,28 +43,10 @@
 						<ul class="menu">
 							<li class="current-menu-item">
                                 <?php 
-                                wp_nav_menu(); //header meny
+                                wp_nav_menu(); //laddar header meny 
                                 ?>
 							</li>
-						<!-- 	<li>
-								<a href="blogg.html">Blogg</a>
-							</li>
-							<li>
-								<a href="undersida.html">Undersida</a>
-							</li>
-							<li>
-								<a href="undersida2.html">Undersida 2</a>
-							</li>
-							<li>
-								<a href="undersida3.html">Undersida 3</a>
-							</li>
-							<li>
-								<a href="undersida4.html">Undersida 4</a>
-							</li>
-							<li>
-								<a href="kontakt.html">Kontakt</a>
-							</li>
-						</ul> -->
+					
 					</div>
 				</div>
 			</div>
