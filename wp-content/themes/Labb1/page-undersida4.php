@@ -9,7 +9,7 @@
 			</form>
 		</div>
 
-		<nav id="nav">
+<!-- 		<nav id="nav">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
@@ -39,7 +39,7 @@
 					</div>
 				</div>
 			</div>
-		</nav>
+		</nav> -->
 
 		<main>
 			<section>
