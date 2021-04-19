@@ -9,7 +9,7 @@
 			</form>
 		</div>
 
-		<nav id="nav">
+<!-- 		<nav id="nav">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
@@ -21,16 +21,16 @@
 								<a href="blogg.html">Blogg</a>
 							</li>
 							<li>
-								<a href="undersida">Undersida</a>
+								<a href="undersida.html">Undersida</a>
 							</li>
 							<li>
-								<a href="undersida2">Undersida 2</a>
+								<a href="undersida2.html">Undersida 2</a>
 							</li>
 							<li>
-								<a href="undersida3">Undersida 3</a>
+								<a href="undersida3.html">Undersida 3</a>
 							</li>
 							<li>
-								<a href="undersida4">Undersida 4</a>
+								<a href="undersida4.html">Undersida 4</a>
 							</li>
 							<li>
 								<a href="kontakt.html">Kontakt</a>
@@ -39,7 +39,7 @@
 					</div>
 				</div>
 			</div>
-		</nav>
+		</nav> -->
 
 
         <?php
@@ -47,6 +47,8 @@
             the_post();
         ?>
 		<main>
+
+ 
 			<section>
 				<div class="container">
 					<div class="row">
@@ -54,8 +56,8 @@
 							<div class="hero">
                             <?php the_post_thumbnail();?> 
 								<div class="text">
-									<h1><?php the_title(); ?></h1>
-									<p><?php the_content(); ?></p>
+									<h1><?php the_title(); ?></h1> <!-- laddar in titelt -->
+									<p><?php the_content(); ?></p> <!-- laddar in content -->
 								</div>
 							</div>
 						</div>
